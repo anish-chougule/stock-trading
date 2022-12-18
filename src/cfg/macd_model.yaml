@@ -1,0 +1,24 @@
+NAME: MACD_Model
+
+INDICATOR: macd
+
+MODEL_PATH: e:\Programming\Data Science\Argon_v1\Testing\stock_data\
+
+_init_VARIABLES:
+  - Name: ['Fast Period']
+    Value: 14
+    Min: 6
+    Max: 30   #30, test = 10
+    Step: 4
+  
+  - Name: ['Slow Period']
+    Value: 40
+    Min: 10
+    Max: 50   #50, tset=20
+    Step: 4
+
+  - Name: ['Signal Period']
+    Value: 70
+    Min: 4
+    Max: 28   #26, test=10
+    Step: 4
