@@ -1,0 +1,24 @@
+NAME: BBAND_Model
+
+INDICATOR: bband
+
+MODEL_PATH: e:\Programming\Data Science\Argon_v1\Testing\stock_data\
+
+_init_VARIABLES:
+  - Name: ['timeperiod']
+    Value: 10
+    Min: 8
+    Max: 40
+    Step: 1
+  
+  - Name: ['nbdevup']
+    Value: 2
+    Min: 2
+    Max: 5
+    Step: 1
+
+  - Name: ['nbdevdn']
+    Value: 2
+    Min: 2
+    Max: 5
+    Step: 1

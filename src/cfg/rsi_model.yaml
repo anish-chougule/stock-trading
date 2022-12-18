@@ -1,0 +1,24 @@
+NAME: RSI_Model
+
+INDICATOR: rsi
+
+MODEL_PATH: e:\Programming\Data Science\Argon_v1\Testing\stock_data\
+
+_init_VARIABLES:
+  - Name: ['No. of Days to Calculate RSI']
+    Value: 14
+    Min: 20
+    Max: 70
+    Step: 4
+  
+  - Name: ['Lower Barrier']
+    Value: 40
+    Min: 35
+    Max: 45
+    Step: 5
+
+  - Name: ['Higher Barrier']
+    Value: 70
+    Min: 65
+    Max: 75
+    Step: 5
