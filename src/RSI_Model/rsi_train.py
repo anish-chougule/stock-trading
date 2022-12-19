@@ -6,8 +6,6 @@ import time
 from pathlib import Path
 import os
 
-from matplotlib import pyplot as plt #Remove later
-
 from RSI_Model import rsi_config
 
 def train(data, cfg):

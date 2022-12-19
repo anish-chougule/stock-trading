@@ -1,6 +1,6 @@
 import logging
 import pickle
-from pyparsing import Opt
+
 import talib as ta
 import os
 from pathlib import Path

@@ -1,0 +1,9 @@
+# Requirements for running this program
+pandas
+numpy
+easydict
+pyyaml
+talib
+pickle
+yfinance
+matplotlib

@@ -1,8 +1,6 @@
 import numpy as np
 import pandas as pd
 import logging
-
-from rsa import sign
 from RSI_Model import rsi_config
 
 def test(data, optm_vars, cfg):
