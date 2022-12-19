@@ -11,7 +11,9 @@ import model_trainer
 # Includes tools for directory handling, model construction, stock data
 from tools import *
 
+from easydict import EasyDict
 
+print("Success")
 # Trading on validation/live data.
 def trade(ticker, start, end=datetime.datetime.today(), signal=1, abs_returns=True):
     # Inputs = stock name, start and end time for trading, initial signal(1:buy | 0:sell), bool for absolute/unrealized returns
